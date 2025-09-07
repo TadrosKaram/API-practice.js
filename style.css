@@ -52,15 +52,22 @@ body {
   top: -4rem;
 
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #888;
+  color: #363e42ff;
 }
 
 .neighbour {
-  transform: scale(0.8) translateY(1rem);
-  margin-left: 0;
+  transform: scale(0.3) translateY(1rem);
+  margin-left: -170px;
+  opacity: 0.7;
+  margin-top: 50px;
+}
+
+.neighbour:hover {
+  transform: scale(0.3) translateY(0);
+  opacity: 1;
 }
 
 .country__img {
@@ -115,10 +122,6 @@ body {
   border-radius: 0.7rem;
   color: white;
   background-color: darkgreen;
-  cursor: pointer;
-}
-
-  background-color: orangered;
   cursor: pointer;
 }
 
